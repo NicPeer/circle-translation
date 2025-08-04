@@ -1,0 +1,42 @@
+
+    position: fixed;<style>
+  #lang-switcher {
+    bottom: 10px;
+    left: 10px;
+    z-index: 9999;
+    background: #fff;
+    padding: 6px 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    font-family: sans-serif;
+    font-size: 14px;
+  }
+
+  #lang-switcher select {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 3px 8px;
+    font-size: 14px;
+  }
+
+  #lang-switcher label {
+    margin-right: 6px;
+    font-weight: 500;
+  }
+</style>
+
+<div id="lang-switcher">
+  <label for="languageSelect">🌍 Language:</label>
+  <select id="languageSelect">>
+    <option value="en">English</option>
+    <option value="fr">Français</option>
+    <option value="de">Deutsch</option>
+    <option value="es">Español</option>
+    <option value="it">Italiano</option>
+    <option value="nl">Nederlands</option>
+    <option value="zh">中文</option>
+    <option value="ar">العربية</option>
+    <option value="hi">हिन्दी</option>
+    <!-- Add more languages as needed -->
+  </select>
+</div>
