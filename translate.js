@@ -1,4 +1,4 @@
-const proxyURL = "https://gpt-translate-proxy.vercel.app/"; // replace with real endpoint
+const proxyURL = "http://gpt-translate-proxy-fu8u8dlc2-nicolaas-projects-450064a6.vercel.app/"; // replace with real endpoint
 let selectedLang = "en";
 
 // Wait until page is ready
